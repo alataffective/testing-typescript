@@ -1,0 +1,20 @@
+{
+  "Framework": "jasmine",
+  "TestHarnessReferenceMode": "AMD",
+  "TestHarnessLocationMode": "SettingsFileAdjacent",
+  "EnableTestFileBatching": true,
+  "References": [
+    {
+      "Path": "node_modules/requirejs/require.js",
+      "IsTestFrameworkFile": true
+    }
+  ],
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  },
+  "Tests": [
+    { "Path": "test" }
+  ]
+}

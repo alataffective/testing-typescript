@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "mypackage",
+  "private": true,
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "jasmine": "^2.6.0",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "@types/uuid": "^3.0.0",
+    "requirejs": "^2.3.3",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "bundle": "webpack src/App.js wwwroot/bundle.js"
+  }
+}
